@@ -6,15 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body{
-            margin-top: 30px;
-            margin-right:60px;        
-            margin-left:60px;        
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <fieldset>
 <legend>Seminar</legend>
 <form>
   <div class="form-group row">
@@ -32,11 +27,7 @@
   <div class="form-group row">
     <label for="select" class="col-4 col-form-label">Tanggal,Lahir</label> 
     <div class="col-8">
-      <select id="select" name="select" class="custom-select">
-        <option value="1">Januari</option>
-        <option value="2">Februari</option>
-        <option value="3">Maret</option>
-      </select>
+      <input type="date">
     </div>
   </div>
   <div class="form-group row">
@@ -59,7 +50,7 @@
     </div>
   </div>
   <div class="form-group row">
-    <label for="select1" class="col-4 col-form-label">Select</label> 
+    <label for="select1" class="col-4 col-form-label">Status</label> 
     <div class="col-8">
       <select id="select1" name="select1" class="custom-select">
         <option value="M">Mahsiswa</option>
@@ -69,9 +60,10 @@
   </div> 
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+      <button name="submit" type="submit" class="btn btn-primary">Daftar</button>
     </div>
   </div>
 </form>
+</fieldset>
 </body>
 </html>
